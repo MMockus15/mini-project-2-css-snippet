@@ -10,7 +10,7 @@
 }
 
 h1 {
-	color: rgb(54, 6, 54);
+	color: #e866ec;;
 }
 
 .h1-paragraph{
@@ -105,6 +105,10 @@ h1 {
     align-items: center;
   }
 
-footer {
+.footer {
 	justify-content: center;
+	left:0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
 }
