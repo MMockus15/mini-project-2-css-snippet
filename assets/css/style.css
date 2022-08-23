@@ -81,7 +81,7 @@ h1 {
     flex-direction: column;
     justify-content: flex-start;
     min-height: 100%;
-    padding: 1rem;
+    /* padding: 1rem; */
     color: #e866ec;
   
     /* outline is like border, but on the outside of the box instead of inside */
@@ -93,7 +93,7 @@ h1 {
   .code-card .card-header {
     /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
     position: relative;
-    margin: -4rem 0 1.5rem 0;
+    margin: -3rem 0 .5rem 0;
     padding: 0.5rem 1rem;
     background-color: #33393f;
     color: #e866ec;
@@ -113,7 +113,7 @@ h1 {
     white-space: pre-wrap;
     overflow: auto;
     tab-size: 4;
-    padding: 1.2rem 1rem;
+    /* padding: 1.2rem 1rem; */
     color: var(--gin);
     border-radius: 8px;
     /* use linear-gradient() function to create a fading background  */
@@ -123,6 +123,7 @@ h1 {
     );
     display: flex;
     align-items: center;
+	height: 16em;
   }
 
 .footer {
