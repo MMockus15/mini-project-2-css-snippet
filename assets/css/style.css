@@ -1,6 +1,13 @@
 * {
-	margin: 10px;
+	margin: 0px;
 	padding: 0;
+}
+
+body {
+	font-family: font-family: 'Cabin', sans-serif;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto Mono', monospace;;
 	background-color: rgb(82, 66, 76);
 }
 
@@ -10,12 +17,19 @@
 }
 
 h1 {
-	color: #e866ec;;
+	color: #e866ec;
+	font-size: 2.5em;
 }
 
 .h1-paragraph{
 	display: flex;
 	justify-content: center;
+	text-align: center;
+	letter-spacing: -1px;
+	color:rgb(97, 172, 147);
+	font-size: .9em;
+	padding-bottom: 4em;
+	padding-top: 1em;
 }
 
 .box-row{
@@ -28,7 +42,7 @@ h1 {
 .dotted-box{
 	width: 230px;
 	height: 100px;
-	border: 2px dotted rgb(226, 180, 212);
+	border: 2px dotted rgb(60, 117, 163);
 	margin: -40px;
 }
 
@@ -67,12 +81,12 @@ h1 {
     flex-direction: column;
     justify-content: flex-start;
     min-height: 100%;
-    padding: 2rem;
+    padding: 1rem;
     color: #e866ec;
   
     /* outline is like border, but on the outside of the box instead of inside */
-    outline: 2px dashed #e0eae4;
-    outline-offset: -2px;
+    outline: 2px dashed rgb(97, 172, 147);
+    outline-offset: .75em;
     transition: all 0.5s ease-in-out;
   }
   
@@ -82,10 +96,16 @@ h1 {
     margin: -4rem 0 1.5rem 0;
     padding: 0.5rem 1rem;
     background-color: #33393f;
-    color: #e866ec;;
-    border: 2px solid #e0eae4;
+    color: #e866ec;
+    border: 2px solid rgb(97, 172, 147);
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
+  }
+
+  .card-body {
+	font-size: .9em;
+	letter-spacing: -1px;
+	padding-bottom: 1em;
   }
 
   .code-card pre {
@@ -111,4 +131,5 @@ h1 {
 	bottom: 0;
 	width: 100%;
 	text-align: center;
+	color: #e866ec;
 }
