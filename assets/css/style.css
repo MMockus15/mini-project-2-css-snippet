@@ -1,13 +1,13 @@
 * {
-	margin: 0px;
+	margin: 10px;
 	padding: 0;
 }
 
 body {
-	font-family: font-family: 'Cabin', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-family: 'Libre Baskerville', serif;
 	font-family: 'Playfair Display', serif;
-	font-family: 'Roboto Mono', monospace;;
+	font-family: 'Roboto Mono', monospace;
 	background-color: rgb(82, 66, 76);
 }
 
@@ -133,4 +133,16 @@ h1 {
 	width: 100%;
 	text-align: center;
 	color: #e866ec;
+}
+
+@media screen and (max-width:992px){
+
+}
+
+@media screen and (max-width:768px){
+
+}
+
+@media screen and (max-width:576px){
+
 }
